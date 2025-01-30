@@ -60,7 +60,7 @@ const AuthForm = ({ type }: { type: string }) => {
           city: data.city!,
           state: data.state!,
           postalCode: data.postalCode!,
-          dateOfBirth: data.dateOfBirth,
+          dateOfBirth: data.dateOfBirth!,
           ssn: data.ssn!,
         };
 
